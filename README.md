@@ -49,10 +49,28 @@ b. Model Used and Accuracy / Performance Metrics
        Certification-based statements
 
 c. Key Features
-    Real-time greenwashing detection
-    URL-based analysis
-    Certification verification
-    Explainable results (reasons + buzzwords)
-    Fluff vs Evidence comparison
-    Audit history table
-    User-friendly Tkinter UI
+🔍 Real-time Greenwashing Detection
+Identifies misleading environmental claims
+ URL-Based Analysis
+Extracts product descriptions from websites using web scraping
+ Sentence Classification
+Categorizes text into:
+Marketing Fluff
+Evidence-Based
+Neutral
+ Certification Verification
+Detects certifications using:
+CSV dataset
+Keyword matching
+ Explainable Results
+Shows:
+Why a product is not trustworthy
+Detected buzzwords
+ Detailed Output
+Fluff vs Evidence count
+Final verdict
+ Audit History
+Stores previous results in a table
+ User-Friendly Interface
+Built using Tkinter
+Simple and interactive UI

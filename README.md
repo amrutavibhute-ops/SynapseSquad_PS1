@@ -49,7 +49,7 @@ b. Model Used and Accuracy / Performance Metrics
        Certification-based statements
 
 c. Key Features
-🔍 Real-time Greenwashing Detection
+  Real-time Greenwashing Detection
 Identifies misleading environmental claims
  URL-Based Analysis
 Extracts product descriptions from websites using web scraping

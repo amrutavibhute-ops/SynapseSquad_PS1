@@ -1,6 +1,23 @@
 # SynapseSquad_PS1
 Green Auditor - Python-based UI tool that analyzes product descriptions to detect greenwashing using NLP techniques and certification checks.
 
+Problem Statement 1
+The Green-Truth Auditor: Combating Greenwashing
+Theme: Responsible Consumption & Climate Action
+The Challenge: "Greenwashing" creates a lack of consumer trust. Brands use vague marketing
+buzzwords like "eco-friendly" to hide high-carbon supply chains, making it impossible for ethical
+consumers to make informed choices.
+The Task: Build an Intent-Aware Sustainability Auditor. The tool must parse product
+descriptions or URLs and use NLP to categorize claims as "Vague/Unverifiable" or
+"Fact-Based/Certified.
+Must-Haves (MVP):
+Input Interface: A text box for product descriptions or a URL scraper.
+Buzzword Detection: A logic-based flag system for terms like "natural", "green,"and "eco-conscious."
+Categorization: Using a pre-trained model to classify sentences as "Marketing Fluff" vs."Evidence-Based."
+Good-to-Haves (Winning Edge):
+RAG (Retrieval-Augmented Generation): Connecting the tool to aCSV/Database of certified B-Corps or GOTS-certified brands.
+Reasoning Summary: An AI-generated explanation of why a specific productfailed the audit.
+
 a. Datasets Used and Preprocessing
  Datasets Used:
   The system uses a combination of:
